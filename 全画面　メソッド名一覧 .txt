@@ -1,0 +1,39 @@
+１　PWR(PassWordReapply)(パスワード再申請画面)
+２　PWRR(PassWordReregistration)(パスワード再登録画面)
+３　PWRRC(PassWordReregistration completed)(パスワード再登録完了画面)
+４　index(ログイン前TOP画面)
+５　login(ログイン画面)
+６　sign up (新規登録画面(美容師))
+７　SC(sign up completion)(新規登録完了)
+８  sign up (新規登録画面(カットモデル))
+９　index(カットモデルTOP画面)
+10  MPE(My page editing)(マイページ編集画面)
+11　APC(Addy password change)(メアドパスワード変更画面)
+12  APCC(Addy password change completion)(メアドパスワード変更完了)
+13  MPD(My page display)(マイページ表示画面)
+14  BBD(Bulletin board details)(掲示板詳細画面(美容師))
+15  CR(Chat rooms)(チャットルーム画面)
+16  CRD(Chat rooms details)(チャットルーム詳細画面)
+17  MBP(Message board post)(掲示板投稿画面)
+18  MBPC(Message board post completion)(掲示板投稿完了画面)
+19  MBPCR(Message board post correction)(投稿修正画面)
+20  MBPCRC(Message board post correction completion)(投稿修正完了画面)
+21  MBPH（Message board　Posts History）投稿履歴
+22  MBPD（Message board　Posts Delete）投稿削除画面
+23  MBPDC（Message board　Posts Delete Completion）投稿削除完了画面
+24  MBPHD（Message board　Posts History detail）投稿履歴詳細画面
+25  AL（Applicants List）応募者一覧画面
+26  AD（Application Decision）応募決定画面
+27  ADC(Application Decision Completion）応募決定完了画面
+28  ADE（Application Decision Expiration）応募決定画面 (募集人数満了時)
+29  ALD（Applicants List  detail）応募者一覧詳細画面
+30 Index (カットモデルTOP)
+31  SBB（Subscribed Bulletin board）応募済掲示板画面
+32  SBBD(Subscribed Bulletin board  detail）応募済み掲示板詳細画面
+33  ACC（Application canceled）応募キャンセル画面（
+34  ACCC（Application canceled Completion）応募キャンセル完了画面
+35  MBD（Message board  detail）掲示板詳細画面(カットモデル用)
+36  AC（Application completion）応募完了画面
+37 Inquiry 問い合わせ画面
+
+
