@@ -17,28 +17,32 @@ echo $this->fetch('css');
 
 <body>
 <header>
-<div class = "container">
-	<div class="row">
-	<h1 class = "display-4">CUTMO</h1>
-			<div class = "text-right col mt-4">
-				<a href="http://localhost/cake3app/commons/login" class="btn btn-dark" role="button">ログイン/新規登録</a>
-				<a href="http://localhost/cake3app/commons/Inquiry" class="btn btn-dark" role="button">お問い合わせ</a>
-		<div>	
-	</div>			
-</div>
+	<div class = "row">
+		<div class="col-3">
+		</div>
+		<h1 class = "display-4">CUTMO</h1>
+		<div class="col-3">
+		</div>	
+			<form action="" method="post">
+                <input class="btn btn-dark mt-4 mr-3" type="submit" value="ログイン/新規登録">
+			</form>
+			<form action="" method="post">
+				<input class="btn btn-dark mt-4" type="submit" value="問い合わせ">
+			</form>	
+	</div>
 </header>
 <main>
-	<div id="content">
+	<div id = "content">
 		<?=$this->fetch('content') ?>
 	</div>
+
 </main>  
 <footer>
-	<div>
-		<p class="text-center"><img src="webroot/img/Untitled99.png"></p>
+	<hr>
+		<p class="text-center"><img src="img/Untitled99.png"></p>
 		<div class ="text-center text-muted font-weight-bold">
 			© CUTMO Inc., All rights reserved.
 		</div>
-	</div>
 </footer>
 </body>
 
