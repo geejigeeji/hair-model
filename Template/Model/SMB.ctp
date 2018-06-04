@@ -1,22 +1,85 @@
-<!doctype html>
-<html lang="ja">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style type="text/css">
+.kensakuform {
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+.namelavel {
+    background-color: rgba(0,222,222,0.40);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    font-size: 1rem;
+    line-height: auto;
+    /*border-radius: 10px;*/
+}
+    .back{
+        position: relative;
+        background-image: url("../img/tophaikei.jpg");
+        background-size:cover;
+        padding: 500px 0;
+        margin: 0;
+    }
+    .back1{
+        background-color: white;
+        padding: 20px 10px;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 900px;
+        font-size: 1rem;
+        line-height: 1.7;
+        border-radius: 10px;
+    }
+    .back2{
+        background-color: white;
+        padding: 20px 10px;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 900px;
+        font-size: 1rem;
+        line-height: auto;   
+    }
+</style>
+<div class="container-fluid back">
+<div class="row text-white mx-5" >
+    <div class="col-2"></div>
+    <h4>5/14投稿</h4>
+</div>
+  
+           <div class="row">
+                    <div class="namelavel text-white">たかほ</div>
+                    </div>
+            <div class="jumbotron back2">
+                
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="col-4">写真<div class="col-2"></div>
+                                </div> 
+                            </div>
+                                <div class="row">
+                                   <b>メニュー<br>希望価格<br>希望時刻</b>
+                                   <div class="col-1"></div>
+                                   カット
+                                   <br>
+                                   0～1000円
+                                   <br>
+                                   21:00～06:00
+                               </div>
+                                <div class="col-1"></div>
+                                <div class="row">
+                                    <b>エリア<br>希望日</b>
+                                    <div class="col-1"></div>
+                                    福岡県福岡市
+                                    <br>
+                                    6/21
+                                </div>
+                                    <a href="mbph" class="btn btn-link btn-lg">応募取消</a>
+                            <div class="col-1"></div>
+                                    <form action="" method="get"><input class="btn btn-dark btn-lg mt-2" type="submit" value="詳細を見る"></form>
+                                    
+                                
+                        </div>
+                
+            </div>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  </body>
-</html>
