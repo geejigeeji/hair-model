@@ -40,6 +40,12 @@
         font-size: 1rem;
         line-height: auto;   
     }
+    img{
+    width:100px;
+    height:100px;
+    
+}
+    
 </style>
 <div class="container-fluid back">
 <div class="jumbotron back1">
@@ -142,8 +148,8 @@
             <div class="jumbotron back2">
                     
                         <div class="row">
-                            <div class="col-2">
-                                <div class="col-4"><img class='img-responsive' src='../img/single3.PNG'><div class="col-2"></div>
+                            <div class="col-3">
+                                <div class="col-2"><img class='img-responsive' src='../img/single3.PNG'><div class="col-3"></div>
                                 </div> 
                             </div>
                                 <div class="row">
@@ -165,7 +171,7 @@
                                 </div>
                                 <div class ="col-1"></div>
                                     <form action="" method="get"><input class="btn btn-dark btn-lg mt-2" type="submit" value="詳細を見る"></form>
-                                    <div class="col-1"></div>
+                                    
                                 
                         </div>
                
