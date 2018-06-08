@@ -4,15 +4,16 @@
     height:50px;
 }   
 .back {
-    background-color: rgba(255, 253, 253, 0.932);
+    background-color: rgba(255, 255, 255, 0.849);
     margin: 0 auto;
     width: 100%;
     height: 700px;
     max-width: 800px;
     border-radius: 10px;
+    
 }
 .back1{
-    background-color: rgba(255, 253, 253, 0.932);
+    background-color: #333232ee;
     margin: 0 auto;
     width: 100%;
     height: 300px;
@@ -20,10 +21,9 @@
     border-radius: 10px;
 }
 .imazine{
-    background-color: rgba(59, 59, 59, 0.253);
-    width: 100%;
-    height: 250px;
-    background-image: url("../img/single3.PNG");
+    height: 200px;
+    background-size:cover;
+
 }
 .waku{
     background-color: rgba(110, 108, 108, 0.425);
@@ -32,14 +32,6 @@
     border-radius: 20px;
     border: solid thin #0f0f0f;
 }
-.maru{
-    border-radius: 20px;
-}
-#ask{
-      border:none;
-      border-radius:30px;
-      padding: 5px 10px;
-    }
 .namelavel{
     background-color:rgba(0,222,222,0.40);
     margin:0 auto;
@@ -47,4 +39,12 @@
     max-width:800px;
     font-size:1rem;
     line-height:auto;
+    
 }    
+.waku2{
+    background-color: rgb(252, 250, 250);
+    width:450px;
+    height:150px;
+    border-radius: 20px;
+    border: solid thin #0f0f0f;
+}
