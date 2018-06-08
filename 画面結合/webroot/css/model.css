@@ -1,0 +1,49 @@
+﻿
+
+.form-wrapper{
+    background: #02020275;
+    margin: 1em 5;
+    padding: 0;
+    width:500px;
+    height:500px;
+    border-radius: 10px;
+
+}
+input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.kensakuform {
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+.namelavel {
+    background-color: rgba(0,222,222,0.40);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    font-size: 1rem;
+    line-height: auto;
+    /*border-radius: 10px;*/
+}
+    .back{
+        position: relative;
+        /*background-image: url("xampp/htdocs/cake3app/webroot/img/tophaikei.jpg");*/
+        background-color: green;
+        background-size:cover;
+        padding: 200px 0;
+        margin: 0;
+    }
+    
+    .back2{
+        background-color: white;
+        padding: 20px 10px;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 900px;
+        font-size: 1rem;
+        line-height: auto;
+    }
