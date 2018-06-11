@@ -1,5 +1,5 @@
 <style type="text/css">
-.kensakuform0 {
+.kensakuform {
     margin-top: 80px;
     margin-left: 80px;
     margin-right: 80px;
@@ -19,7 +19,7 @@
         position: relative;
         background-image: url("../img/tophaikei.jpg");
         background-size:cover;
-        padding: 500px 0;
+        padding: 200px 0;
         margin: 0;
     }
     .back10{
@@ -50,7 +50,7 @@
         font-size: 1rem;
         line-height: auto;   
     }
-    .imazinen{
+    .imazine{
     height:100%;
     width: 100%;
     background-image: url("../img/single3.PNG");
@@ -123,6 +123,9 @@
       border:none;
       border-radius:30px;
       padding: 5px 10px;
+    }
+    .container{
+        margin:0px;
     }
 </style>
 <div class="container-fluid back0">

@@ -1,11 +1,11 @@
 <style type="text/css">
-.kensakuform0 {
+.kensakuform {
     margin-top: 80px;
     margin-left: 80px;
     margin-right: 80px;
     margin-bottom: 20px;
 }
-.namelavel0 {
+.namelavel {
     background-color: black;
     margin: auto;
     width: 100%;
@@ -15,14 +15,14 @@
     line-height: auto;
     /*border-radius: 10px;*/
 }
-    .back0{
+    .back{
         position: relative;
         background-image: url("../img/tophaikei.jpg");
         background-size:cover;
         padding: 500px 0;
         margin: 0;
     }
-    .back10{
+    .back1{
         background-color: white;
         padding: 20px 10px;
         margin: 0 auto;
@@ -32,7 +32,7 @@
         line-height: 1.7;
         border-radius: 10px;
     }
-    .back20{
+    .back2{
         background-color: white;
         padding: 20px 10px;
         margin: 0 auto;
@@ -41,7 +41,7 @@
         font-size: 1rem;
         line-height: auto;   
     }
-    .back30{
+    .back3{
         background-color: #D8F3F0;
         padding: 20px 10px;
         margin: 0 auto;
@@ -50,7 +50,7 @@
         font-size: 1rem;
         line-height: auto;   
     }
-    .imazinen{
+    .imazine{
     height:100%;
     width: 100%;
     background-image: url("../img/single3.PNG");
@@ -125,12 +125,12 @@
       padding: 5px 10px;
     }
 </style>
-<div class="container-fluid back0">
+<div class="container-fluid back">
   
            <div class="row">
-                <div class="namelavel0 text-white">チャットルーム</div>
+                <div class="namelavel text-white">チャットルーム</div>
             </div>
-            <div class="jumbotron back30">
+            <div class="jumbotron back3">
                         <div class="row">
                            <div id="chat-frame">
                                 <p class="chat-talk">
