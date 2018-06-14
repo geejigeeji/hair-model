@@ -1,7 +1,7 @@
 <style>
     .jumbotron {
         position: relative;
-        background-image: url("../img/sa113_list_F800-800.jpg");
+        background-image: url("../img/tophaikei.jpg");
         background-size: cover;
         padding: 200px 0;
     }
@@ -83,9 +83,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="imazine col-3 ml-4 mt-2">
-                <img class="adapt" alt="" src="../img/single4.PNG">
-            </div>
+            <div class="imazine col-3 ml-4 mt-2"></div>
             <div class="waku container col-8 mt-2 ml-4">
                 <table class="table table-noborder">
                     <thead>

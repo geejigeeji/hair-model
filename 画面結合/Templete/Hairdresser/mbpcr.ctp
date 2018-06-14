@@ -44,7 +44,7 @@
         <div class="namelavel0 text-white">投稿修正画面</div>
     </div>
     <div class="jumbotron back10">
-
+       
             <div class="row">
               <div class="col-2 text-center">
                   <b>メニュー</b>
@@ -61,88 +61,28 @@
                 <div class="col-2 text-center">
                     <b>価格</b>
                 </div>
-                <div class="dropdown"><!--ならない-->
-                        <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        0～1000
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">0～1000</a>
-                            <a class="dropdown-item" href="#">1000～2000</a>
-                            <a class="dropdown-item" href="#">2000～3000</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">その他リンク</a>
-                        </div>
-                    </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-2 text-center">
-                    <b>日付</b>
-                </div>
-                <div class="dropdown"><!--ならない-->
-                        <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        5月
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">1月</a>
-                            <a class="dropdown-item" href="#">2月</a>
-                            <a class="dropdown-item" href="#">3月</a>
-                            <a class="dropdown-item" href="#">4月</a>
-                            <a class="dropdown-item" href="#">5月</a>
-                            <a class="dropdown-item" href="#">6月</a>
-                            <a class="dropdown-item" href="#">7月</a>
-                            <a class="dropdown-item" href="#">8月</a>
-                            <a class="dropdown-item" href="#">9月</a>
-                            <a class="dropdown-item" href="#">10月</a>
-                            <a class="dropdown-item" href="#">11月</a>
-                            <a class="dropdown-item" href="#">12月</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">その他リンク</a>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                <div class="dropdown"><!--ならない-->
-                        <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        1日
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">1日</a>
-                            <a class="dropdown-item" href="#">2日</a>
-                            <a class="dropdown-item" href="#">3日</a>
-                            <a class="dropdown-item" href="#">4日</a>
-                            <a class="dropdown-item" href="#">5日</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">その他リンク</a>
-                        </div>
-                    </div>
-                    </div>
+                <select name="money">
+                        <option value="">選択してください</option>
+                        <option value="0～1000">0～1000</option>
+                        <option value="1000～2000">1000～20000</option>
+                    </select>
             </div>
             <br>
             <div class="row">
                 <div class="col-2 text-center">
                     <b>時刻</b>
                 </div>
-            <div class="dropdown"><!--ならない-->
-                            <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            開始時間
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">9:00</a>
-                                <a class="dropdown-item" href="#">10:00</a>
-                                <a class="dropdown-item" href="#">11:00</a>
-                            </div>
-                        </div>
-                        <div class="col-1"></div><h1>～</h1><div class="col-1"></div>
-                        <div class="dropdown"><!--ならない-->
-                            <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            終了時間
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">10:00</a>
-                                <a class="dropdown-item" href="#">11:00</a>
-                                <a class="dropdown-item" href="#">12:00</a>
-                            </div>
-                        </div>
+                <select name="fasttime">
+                        <option value="">選択してください</option>
+                        <option value="9:00">9:00</option>
+                        <option value="10:00">10:00</option>
+                    </select>
+                        <div class="col-1"></div>～<div class="col-1"></div>
+                        <select name="lasttime">
+                        <option value="">選択してください</option>
+                        <option value="11:00">11:00</option>
+                        <option value="12:00">12:00</option>
+                    </select>
                 
                 
             </div>
@@ -151,22 +91,22 @@
                 <div class="col-2 text-center">
                     <b>募集人数</b>
                 </div>
-             <div class="dropdown"><!--ならない-->
-                        <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        1人
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">1人</a>
-                            <a class="dropdown-item" href="#">2人</a>
-                            <a class="dropdown-item" href="#">3人</a>
-                            <a class="dropdown-item" href="#">4人</a>
-                            <a class="dropdown-item" href="#">5人</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">その他リンク</a>
-                        </div>
-                    </div>
-                
-                
+             <select>
+                        <option value="">選択してください</option>
+                        <option value="1">1人</option>
+                        <option value="2">2人</option>
+                        <option value="3">3人</option>
+                    </select>
+            </div>
+            
+            <br>
+            <div class="row">
+                <div class="col-2 text-center">
+                    <b>タイトル</b>
+                </div>
+            <div class="form-group">
+                    <textarea rows="1" class="form-control"id="ask1"></textarea>
+                </div>
             </div>
             <br>
             <div class="row">
@@ -176,20 +116,13 @@
                 <div class="form-group">
                     <textarea rows="10" class="form-control"id="ask1"></textarea>
                 </div>
-                
-                
             </div>
                 
             
                <div class="row">
                 <div class ="col-6"></div>
-                
-                <form action="mbpcrc" method="get">
-                    <input class="btn btn-dark btn-lg mt-2" type="submit" value="修正">
-                </form>
-                
+                <form action="mbpc" method="get"><input class="btn btn-dark" type="submit" value="投稿"></form>
                 </div>
-
     </div>
                 
 </div>

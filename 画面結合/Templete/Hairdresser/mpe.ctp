@@ -5,7 +5,7 @@
 
     .jumbotron {
         position: relative;
-        background-image: url("../img/sa113_list_F800-800.jpg");
+        background-image: url("../img/tophaikei.jpg");
         background-size: cover;
         padding: 200px 0;
     }
@@ -20,7 +20,7 @@
         background-color: rgba(255, 253, 253, 0.932);
         margin: 0 auto;
         width: 100%;
-        height: 700px;
+        max-height: 700px;
         max-width: 800px;
         border-radius: 10px;
     }
@@ -29,7 +29,7 @@
         background-color: rgba(255, 253, 253, 0.932);
         margin: 0 auto;
         width: 100%;
-        height: 300px;
+        max-height: 300px;
         max-width: 500px;
         border-radius: 10px;
     }
@@ -44,7 +44,7 @@
     .waku {
         background-color: rgba(110, 108, 108, 0.425);
         width: 400px;
-        height: 600px;
+        max-height: 500px;
         border-radius: 20px;
         border: solid thin #0f0f0f;
     }
@@ -63,15 +63,15 @@
         background-color: rgba(0, 222, 222, 0.40);
         margin: 0 auto;
         width: 100%;
-        max-width: 720px;
+        max-width: 800px;
         font-size: 1rem;
         line-height: auto;
     }
 
 </style>
 <div class="jumbotron">
-    <div class="namelavel text-white col-10">マイページ</div>
-    <div class="back container">
+    <div class="namelavel text-white">マイページ</div>
+    <div class="back">
         <div class="row">
             <div class="col-11 text-right">
                 <form action="mpd" method="get">
@@ -82,7 +82,7 @@
         <div class="row">
             <div class="imazine col-3 ml-4 mt-2">
             </div>
-            <div class="waku container col-8 mt-2 mx-auto">
+            <div class="waku  col-8 mt-2 mx-auto">
                 <div class="row">
                     <div class="col-1"></div>
                     <div class="form-inline mt-5">
@@ -107,7 +107,7 @@
                 <div class="row">
                     <div class="col-1"></div>
                     <div class="form-inline mt-2">
-                        <strong for="name" class="control-label mr-5 ">年齢</strong>
+                        <strong for="name" class="control-label mr-5 ">職業</strong>
                         <div class="col-1"></div>
                         <textarea rows="1" class="form-control ml-4" id="ask"></textarea>
                     </div>

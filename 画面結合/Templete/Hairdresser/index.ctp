@@ -76,18 +76,11 @@
                         <div class = "col-2"></div>
                         エリア
                     </div>
-                        <div class="dropdown"><!--ならない-->
-                            <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            ドロップダウンボタン
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">メニュー1</a>
-                                <a class="dropdown-item" href="#">メニュー2</a>
-                                <a class="dropdown-item" href="#">メニュー3</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">その他リンク</a>
-                            </div>
-                        </div>
+                    <select name="area">
+                        <option value="">選択してください</option>
+                        <option value="日本">日本</option>
+                        <option value="海外">海外</option>
+                    </select>
                 </div>
                 <br>
                 <div class = "row">
@@ -95,16 +88,11 @@
                         <div class = "col-2"></div>
                         希望価格
                     </div>
-                        <div class="dropdown"><!--ならない-->
-                            <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            希望価格
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">0～1000</a>
-                                <a class="dropdown-item" href="#">1000～2000</a>
-                                <a class="dropdown-item" href="#">2000～3000</a>
-                            </div>
-                        </div>
+                    <select name="money">
+                        <option value="">選択してください</option>
+                        <option value="0～1000">0～1000</option>
+                        <option value="1000～2000">1000～20000</option>
+                    </select>
                 </div>
                 <br>
                 <div class = "row">
@@ -112,27 +100,17 @@
                         <div class = "col-2"></div>
                         希望時刻
                     </div>
-                        <div class="dropdown"><!--ならない-->
-                            <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            開始時間
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">9:00</a>
-                                <a class="dropdown-item" href="#">10:00</a>
-                                <a class="dropdown-item" href="#">11:00</a>
-                            </div>
-                        </div>
-                        <div class="col-1"></div><h1>～</h1><div class="col-1"></div>
-                        <div class="dropdown"><!--ならない-->
-                            <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            終了時間
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">10:00</a>
-                                <a class="dropdown-item" href="#">11:00</a>
-                                <a class="dropdown-item" href="#">12:00</a>
-                            </div>
-                        </div>
+                    <select name="fasttime">
+                        <option value="">選択してください</option>
+                        <option value="9:00">9:00</option>
+                        <option value="10:00">10:00</option>
+                    </select>
+                        <div class="col-1"></div>～<div class="col-1"></div>
+                        <select name="lasttime">
+                        <option value="">選択してください</option>
+                        <option value="11:00">11:00</option>
+                        <option value="12:00">12:00</option>
+                    </select>
                 </div>
             </form>
         </div>
