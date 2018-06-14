@@ -56,7 +56,7 @@
         <div class="back0">
             <div class="row">
                 <div class="col-11 text-right">
-                    <form action="crd" method="get">
+                    <form action="http://localhost/cake3app/Model/index" method="get">
                         <input class="btn-dark btn-lg mt-2 " type="submit" value="応募する">
                     </form>        
                 </div> 
