@@ -1,25 +1,25 @@
 <style>
-    .jumbotron {
+    .jumbotron0 {
         position: relative;
-        background-image: url("../img/sa113_list_F800-800.jpg");
+        background-image: url("../img/tophaikei.jpg");
         background-size: cover;
         padding: 200px 0;
     }
 
-    img {
+    img0 {
         width: auto;
         height: auto;
         max-width: 100%;
         max-height: 100%;
     }
 
-    .menu {
+    .menu0 {
         background-color: #c7c7c959;
         width: 100%;
         height: 50px;
     }
 
-    .back {
+    .back0 {
         background-color: rgba(255, 253, 253, 0.932);
         margin: 0 auto;
         width: 100%;
@@ -28,7 +28,7 @@
         border-radius: 10px;
     }
 
-    .back1 {
+    .back10 {
         background-color: rgba(255, 253, 253, 0.932);
         margin: 0 auto;
         width: 100%;
@@ -37,22 +37,9 @@
         border-radius: 10px;
     }
 
-    .imazine {
-        background-color: rgba(59, 59, 59, 0.253);
-        width: 100%;
-        height: 250px;
-        background-image: url("../img/single3.PNG");
-    }
+    
 
-    .waku {
-        background-color: rgba(110, 108, 108, 0.425);
-        width: 400px;
-        height: 600px;
-        border-radius: 20px;
-        border: solid thin #0f0f0f;
-    }
-
-    .maru {
+    .maru0 {
         border-radius: 20px;
     }
 
@@ -62,7 +49,7 @@
         padding: 5px 10px;
     }
 
-    .namelavel {
+    .namelavel0 {
         background-color: rgba(0, 222, 222, 0.40);
         margin: 0 auto;
         width: 100%;
@@ -70,11 +57,18 @@
         font-size: 1rem;
         line-height: auto;
     }
+    .waku20{
+    background-color: rgb(252, 250, 250);
+    width:450px;
+    height:150px;
+    border-radius: 20px;
+    border: solid thin #0f0f0f;
+}
 
 </style>
-<div class="jumbotron">
-    <div class="namelavel text-white">マイページ</div>
-    <div class="back container">
+<div class="jumbotron0">
+    <div class="namelavel0 text-white">マイページ</div>
+    <div class="back0 container">
         <div class="row">
             <div class="col-11 text-right">
                 <form action="mpe" method="get">
@@ -83,10 +77,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="imazine col-3 ml-4 mt-2">
-                <img class="adapt" alt="" src="../img/single4.PNG">
+            <div class="col-3 ml-4 mt-2">
+                <img class="adapt" alt="" src="../img/single3.PNG">
             </div>
-            <div class="waku container col-8 mt-2 ml-4">
+            <div class="waku0 container col-8 mt-2 ml-4">
                 <table class="table table-noborder">
                     <thead>
                         <tbody>
@@ -133,7 +127,7 @@
                     </tbody>
                 </table>
                 <strong class="ml-5">自己紹介欄</strong>
-                                    <div class="waku2 ml-4">
+                                    <div class="waku20 ml-4">
                                         <h5 class="ml-2 mt-3">
                                             カットモデルとしてデビューしてスター街道を歩みたいです！！！
                                         </h5>

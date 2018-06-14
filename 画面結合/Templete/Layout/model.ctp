@@ -26,12 +26,13 @@ echo $this->fetch('css');
 	<div class = "row">
 		<div class=col-1></div>
 		<form action="index" method="get">
-			<input class=" h1 btn btn-link text-dark mt-3 ml-5 display-5" type="submit" value="CUTMO">
+			<a href="http://localhost/cake3app/Hairdresser/index"><img src="../img/coollogo_com-13563663.png"border="0"></a>
 		</form>
+			<div class ="col-5"></div>
 				<form action="mpd" method="get">
 					<input class="btn btn-dark mt-4 mr-3" type="submit" value="マイページ">
 				</form>
-				<form action="localhost/cake3app/Commons/index" method="get">
+				<form action="http://localhost/cake3app/Commons/index" method="get">
 					<input class="btn btn-dark mt-4" type="submit" value="ログアウト">
 				</form>		
 	</div>
