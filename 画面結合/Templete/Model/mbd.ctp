@@ -1,17 +1,17 @@
  <style>
-    .jumbotron{
+    .jumbotron0{
         position: relative;
         background-image: url("../img/tophaikei.jpg");
         background-size: cover;
         padding: 200px 0;
     }
-    img {
+    img0 {
     width:auto;
     height:auto;
     max-width:100%;
     max-height:100%;
 }
-}   
+   
 .back0 {
     background-color: rgba(255, 255, 255, 0.849);
     margin: 0 auto;
@@ -21,19 +21,19 @@
     border-radius: 10px;
     
 }
-.imazine{
-    height: 200px;
-    background-size:cover;
+.imazine0{
+    height: 100px;
+    background-size:50px;
 
 }
-.waku{
+.waku0{
     background-color: rgba(110, 108, 108, 0.425);
     width:400px;
     height:600px;
     border-radius: 20px;
     border: solid thin #0f0f0f;
 }
-.namelavel{
+.namelavel0{
     background-color:rgba(0,222,222,0.40);
     margin:0 auto;
     width:100%;
@@ -42,7 +42,7 @@
     line-height:auto;
     
 }    
-.waku2{
+.waku20{
     background-color: rgb(252, 250, 250);
     width:450px;
     height:150px;
@@ -51,18 +51,18 @@
 }
 
     </style>
-    <div class="jumbotron">
-    <div class="namelavel text-white">美容師掲示板詳細</div>
-        <div class="back0 container">
+    <div class="jumbotron0">
+    <div class="namelavel0 text-white">美容師掲示板詳細</div>
+        <div class="back0">
             <div class="row">
                 <div class="col-11 text-right">
                     <form action="crd" method="get">
-                        <input class="btn-dark btn-lg mt-2 " type="submit" value="応募すsる">
+                        <input class="btn-dark btn-lg mt-2 " type="submit" value="応募する">
                     </form>        
                 </div> 
             </div>    
             <div class="row">
-                <div class="imazine col-3 ml-4 mt-2">
+                <div class="imazine0 col-3 ml-4 mt-1">
                     <img class="adapt" alt="" src="../img/single4.PNG">
                 </div>  
                 <div class="waku container col-8 mt-2 ml-4">
@@ -112,7 +112,7 @@
                         </tbody>
                         </table>
                         <strong class="ml-5">自己紹介欄</strong>
-                        <div class="waku2 ml-4">
+                        <div class="waku20 ml-4">
                             <h5 class="ml-2 mt-3">
                                 カットモデルとしてデビューしてスター街道を歩みたいです！！！
                             <h5>    
