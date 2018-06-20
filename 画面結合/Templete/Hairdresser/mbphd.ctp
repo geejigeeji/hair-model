@@ -1,22 +1,75 @@
-<!doctype html>
-<html lang="ja">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+.jumbotron{
+    position: relative;
+    background-image: url("../img/sa113_list_F800-800.jpg");
+    background-size: cover;
+    padding: 200px 0;
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  </body>
-</html>
+}
+img {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+</style>
+<div class="jumbotron">
+    <div class="namelavel2 text-white"><h2>美容師掲示板詳細</h2></div>
+    <div class="back2 container pt-0">
+        <div class="row"> 
+            <div class="col-12 text-right">
+                <form action="" method="get">
+                    <input class="btn-dark btn-lg mt-2 " type="submit" value="応募する">
+                </form>        
+            </div> 
+        </div>  
+        <div class="row">       
+                <div class="back3 col-3 ml-3">
+                    <div class="imazine2 ml-0 mr-0">
+                    <img class="adapt" alt="" src="../img/single4.PNG">
+                    </div>
+                    <div class="text-center mt-4">専門学生</div>
+                    <div class="row mt-2">
+                        <div class="col-2"></div>
+                        <h4>へりんとん</h4>
+                        <h4>(男)</h4>
+                    </div>
+                    <div class="text-center mt-2">２０代</div>
+                    <div class="row mt-2">
+                        <div class="col-1"></div>
+                        <div class="font-weight-bold">エリア:</div>
+                        <div class="ml-3">福岡県大野城市</div>
+                    </div>
+                </div>
+                <div class="ml-3 col-7">
+                    <div class="waku4 col-12">
+                        <h2 class="font-weight-bold">先着５名様限定！１０００円プレゼント</h2>
+                        <h5>俺はカット経験がないので先着５名様限定で１０００円プレゼント
+                            授業でならっただけで己の腕を試したい
+                            来いよ
+                        </h5>
+                    </div>
+                    <strong>メニュー情報</strong>
+                    <div class="waku5 col-10 mt-2">
+                        <div class="row ml-2 mt-2">    
+                            <strong>メニュー</strong>
+                            <div class="ml-4">カット</div>
+                        </div>
+                        <div class="row ml-2 mt-2">    
+                            <strong>価格</strong>
+                            <div class="ml-5">カット</div>
+                        </div>
+                        <div class="row ml-2 mt-2">    
+                            <strong>日付</strong>
+                            <div class="ml-5">カット</div>
+                        </div>
+                        <div class="row ml-2 mt-2">    
+                            <strong>時間</strong>
+                            <div class="ml-5">カット</div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+         
+    </div>    
+</div>
