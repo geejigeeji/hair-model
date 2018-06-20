@@ -1,125 +1,75 @@
- <style>
-    .jumbotron0{
-        position: relative;
-        background-image: url("../img/tophaikei.jpg");
-        background-size: cover;
-        padding: 200px 0;
-    }
-    img0 {
+<style>
+.jumbotron{
+    position: relative;
+    background-image: url("../img/sa113_list_F800-800.jpg");
+    background-size: cover;
+    padding: 200px 0;
+
+}
+img {
     width:auto;
     height:auto;
     max-width:100%;
     max-height:100%;
 }
-   
-.back0 {
-    background-color: rgba(255, 255, 255, 0.849);
-    margin: 0 auto;
-    width: 100%;
-    height: 700px;
-    max-width: 800px;
-    border-radius: 10px;
-    
-}
-.imazine0{
-    height: 100px;
-    background-size:50px;
-
-}
-.waku0{
-    background-color: rgba(110, 108, 108, 0.425);
-    width:400px;
-    height:600px;
-    border-radius: 20px;
-    border: solid thin #0f0f0f;
-}
-.namelavel0{
-    background-color:rgba(0,222,222,0.40);
-    margin:0 auto;
-    width:100%;
-    max-width:800px;
-    font-size:1rem;
-    line-height:auto;
-    
-}    
-.waku20{
-    background-color: rgb(252, 250, 250);
-    width:450px;
-    height:150px;
-    border-radius: 20px;
-    border: solid thin #0f0f0f;
-}
-
-    </style>
-    <div class="jumbotron0">
-    <div class="namelavel0 text-white">美容師掲示板詳細</div>
-        <div class="back0">
-            <div class="row">
-                <div class="col-11 text-right">
-                    <form action="http://localhost/cake3app/Model/index" method="get">
-                        <input class="btn-dark btn-lg mt-2 " type="submit" value="応募する">
-                    </form>        
-                </div> 
-            </div>    
-            <div class="row">
-                <div class="imazine0 col-3 ml-4 mt-1">
+</style>
+<div class="jumbotron">
+    <div class="namelavel text-white"><h2>美容師掲示板詳細</h2></div>
+    <div class="back container pt-0">
+        <div class="row"> 
+            <div class="col-12 text-right">
+                <form action="" method="get">
+                    <input class="btn-dark btn-lg mt-2 " type="submit" value="応募する">
+                </form>        
+            </div> 
+        </div>  
+        <div class="row">       
+                <div class="back2 col-3 ml-3">
+                    <div class="imazine2 ml-0 mr-0">
                     <img class="adapt" alt="" src="../img/single4.PNG">
-                </div>  
-                <div class="waku container col-8 mt-2 ml-4">
-                <table class="table table-noborder">
-                        <thead>
-                        <tbody>
-                            <tr style="border-bottom-style: hidden;">
-                            <th scope="row"></th>
-                            <td><strong>ニックネーム</strong></td>
-                            <td>項目２</td>
-                            </tr>
-                            <tr  style="border-bottom-style: hidden;">
-                            <th scope="row"></th>
-                            <td><strong>性別</strong></td>
-                            <td>項目５</td>
-                            </tr>
-                            <tr  style="border-bottom-style: hidden;">
-                            <th scope="row"></th>
-                            <td><strong>職業</strong></td>
-                            <td>項目８</td>
-                            </tr>
-                            <tr  style="border-bottom-style: hidden;">
-                            <th scope="row"></th>
-                            <td><strong>都道府県</strong></td>
-                            <td>項目２</td>
-                            </tr>
-                            <tr  style="border-bottom-style: hidden;">
-                            <th scope="row"></th>
-                            <td><strong>市町村</strong></td>
-                            <td>項目５</td>
-                            </tr>
-                            <tr  style="border-bottom-style: hidden;">
-                            <th scope="row"></th>
-                            <td><strong>希望価格</strong></td>
-                            <td>項目８</td>
-                            </tr>
-                            <tr  style="border-bottom-style: hidden;">
-                            <th scope="row"></th>
-                            <td><strong>希望メニュー</strong></td>
-                            <td>項目２</td>
-                            </tr>
-                            <tr  style="border-bottom-style: hidden;">
-                            <th scope="row"></th>
-                            <td><strong>希望時間</storng></td>
-                            <td>項目５</td>
-                            </tr>
-                        </tbody>
-                        </table>
-                        <strong class="ml-5">自己紹介欄</strong>
-                        <div class="waku20 ml-4">
-                            <h5 class="ml-2 mt-3">
-                                カットモデルとしてデビューしてスター街道を歩みたいです！！！
-                            <h5>    
-
-                        </div>
-                    
+                    </div>
+                    <div class="text-center mt-4">専門学生</div>
+                    <div class="row mt-2">
+                        <div class="col-2"></div>
+                        <h4>へりんとん</h4>
+                        <h4>(男)</h4>
+                    </div>
+                    <div class="text-center mt-2">２０代</div>
+                    <div class="row mt-2">
+                        <div class="col-1"></div>
+                        <div class="font-weight-bold">エリア:</div>
+                        <div class="ml-3">福岡県大野城市</div>
+                    </div>
                 </div>
-            </div>
-        </div>    
-    </div>
+                <div class="ml-3 col-7">
+                    <div class="waku4 col-12">
+                        <h2 class="font-weight-bold">先着５名様限定！１０００円プレゼント</h2>
+                        <h5>俺はカット経験がないので先着５名様限定で１０００円プレゼント
+                            授業でならっただけで己の腕を試したい
+                            来いよ
+                        </h5>
+                    </div>
+                    <strong>メニュー情報</strong>
+                    <div class="waku5 col-10 mt-2">
+                        <div class="row ml-2 mt-2">    
+                            <strong>メニュー</strong>
+                            <div class="ml-4">カット</div>
+                        </div>
+                        <div class="row ml-2 mt-2">    
+                            <strong>価格</strong>
+                            <div class="ml-5">カット</div>
+                        </div>
+                        <div class="row ml-2 mt-2">    
+                            <strong>日付</strong>
+                            <div class="ml-5">カット</div>
+                        </div>
+                        <div class="row ml-2 mt-2">    
+                            <strong>時間</strong>
+                            <div class="ml-5">カット</div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+         
+    </div>    
+</div>
