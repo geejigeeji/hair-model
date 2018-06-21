@@ -5,7 +5,7 @@
     margin-right: 80px;
     margin-bottom: 20px;
 }
-.namelavel1 {
+.namelavel {
     background-color: rgba(0,222,222,0.40);
     margin: 0 auto;
     width: 100%;
@@ -14,14 +14,14 @@
     line-height: auto;
     /*border-radius: 10px;*/
 }
-    .back10{
+    .back{
         position: relative;
         background-image: url("../img/tophaikei.jpg");
         background-size:cover;
         padding:     500px 0;
         margin: 0;
     }
-    .back11{
+    .back1{
         background-color: white;
         padding: 50px 10px;
         margin: 0 auto;
@@ -31,7 +31,7 @@
         line-height: 1.7;
         border-radius: 10px;
     }
-    .back20{
+    .back2{
         background-color: white;
         padding: 20px 10px;
         margin: 0 auto;
@@ -47,15 +47,15 @@
 }
     
 </style>
-<div class="container-fluid back10">
-<div class="jumbotron back11">
-            <form>
+<div class="container-fluid back">
+<div class="jumbotron back1">
+            <form action="" method="get">
                 
                 <div class ="row">
                       <div class ="col-1"></div>
                       <h3>条件検索</h3>
                       <div class ="col-7"></div>
-                      <form action="" method="get"><input class="btn btn-dark btn-lg mt-2" type="submit" value="条件を変更"></form>
+                      <input class="btn btn-dark btn-lg mt-2" type="submit" value="条件を変更">
                 </div> 
                 <br>
                 <div class = "row">
@@ -64,10 +64,9 @@
                         希望メニュー
                     </div>
                         <div class="checkbox">
-                            <label class="checkbox-inline"><input type="checkbox" value="">カット　　</label>
-                            <label class="inline"><input type="checkbox" value="">ヘアカラー　　</label>
-                            <label class="checkbox-inline"><input type="checkbox" value="">ネイル　　</label>
-                            <label class="checkbox-inline"><input type="checkbox" value="">縮毛矯正　　</label>
+                            <?php foreach($youso as $key){ ?>
+                            <input type="checkbox" name="menu_id[]" value='<?=$key['menu_id']?>'><?=$key['menu_name']?>
+                            <?php } ?>
                         </div>  
                 </div>
                 <br>
@@ -76,10 +75,15 @@
                         <div class = "col-2"></div>
                         エリア
                     </div>
-                    <select name="area">
-                        <option value="">選択してください</option>
-                        <option value="日本">日本</option>
-                        <option value="海外">海外</option>
+                    <select name="prefecture">
+                    <option value=-1>選択してください</option>
+                    <?php
+                    foreach($pref as $keyp){
+                    ?>
+                    <option value='<?=$keyp['prefecture_id']?>'><?=$keyp['prefecture_name']?></option>
+                    <?php
+                    }
+                    ?>
                     </select>
                 </div>
                 <br>
@@ -88,10 +92,17 @@
                         <div class = "col-2"></div>
                         希望価格
                     </div>
-                    <select name="money">
-                        <option value="">選択してください</option>
-                        <option value="0～1000">0～1000</option>
-                        <option value="1000～2000">1000～20000</option>
+                    <?php
+                    $nedan=array();
+                    foreach($price as $obj1){
+                        array_push($nedan,$obj1['price_first']."〜".$obj1['price_last']);
+                    }
+                    ?>
+                    <select name="price">
+                    <option value=-1>選択してください</option>
+                    <?php for($i=0;$i<count($nedan);$i++){ ?>
+                    <option value='<?=$i?>'><?=$nedan[$i]?></option>
+                    <?php } ?>
                     </select>
                 </div>
                 <br>
@@ -100,30 +111,31 @@
                         <div class = "col-2"></div>
                         希望時刻
                     </div>
-                        <select name="fasttime">
-                        <option value="">選択してください</option>
-                        <option value="9:00">9:00</option>
-                        <option value="10:00">10:00</option>
-                    </select>
-                        <div class="col-1"></div>～<div class="col-1"></div>
-                        <select name="lasttime">
-                        <option value="">選択してください</option>
-                        <option value="11:00">11:00</option>
-                        <option value="12:00">12:00</option>
-                    </select>
+                        <select name="zikoku">
+                        <option value=-1>選択してください</option>
+                        <?php
+                        foreach($time as $keyt){
+                        ?>
+                        <option value='<?=$keyt['time_id']?>'><?=$keyt['time']?></option>
+                        <?php
+                        }
+                        ?>
+                        </select>
                 </div>
             </form>
         </div>
         <br>
+
         <div class="row">
             <div class="col-2 "></div>
-            <h4 class="text-white">〇〇件の検索結果</h4>
+            <!-- <h4 class="text-white">〇〇件の検索結果</h4> -->
         </div>
         <br>
+        <?php foreach($result as $obj):?>
            <div class="row">
-                    <div class="namelavel1 text-white">岡林連</div>
+                    <div class="namelavel text-white"><?= $obj['user_name']?></div>
                     </div>
-            <div class="jumbotron back20">
+            <div class="jumbotron back2">
                     
                         <div class="row">
                             <div class="col-3">
@@ -133,17 +145,17 @@
                                 <div class="row">
                                    <b>メニュー<br>価格<br>時刻</b>
                                    <div class="col-1"></div>
-                                   カット
+                                   <?= $obj['menu_name']?>
                                    <br>
-                                   0～1000円
+                                   <?= $obj['price_first']?>〜<?= $obj['price_last']?>
                                    <br>
-                                   21:00～06:00
+                                   <?= $obj['recruitment_first_time']?>～<?= $obj['recruitment_last_time']?>
                                </div>
                                 <div class="col-1"></div>
                                 <div class="row">
                                     <b>エリア<br>希望日</b>
                                     <div class="col-1"></div>
-                                    福岡県福岡市
+                                    <?= $obj['prefecture_name']?><?= $obj['city_name']?>
                                     <br>
                                     6/31
                                 </div>
@@ -154,5 +166,6 @@
                         </div>
                
             </div>
+            <?php endforeach;?>
 </div>
 

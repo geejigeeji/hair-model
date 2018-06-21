@@ -3,9 +3,65 @@ namespace App\Controller;
 use Cake\ORM\TableRegistry;
 use Cake\I18n\Time;
 class ModelController extends AppController{
-	public function index(){
+	
+	public function initialize() {
+    	$this->viewBuilder()->layout('Model');  
+    }
 
-		
+   	public function ac(){
+        
+	}
+    public function acc(){
+        
+    }
+    public function accc(){
+        
+    }
+    public function adc(){
+        
+    }
+    public function ade(){
+        
+    }
+    public function apc(){
+        
+    }
+    public function apcc(){
+        
+    }
+    public function cr(){
+        
+    }
+    public function crd(){
+        
+    }
+    public function logout(){
+        
+    }
+    public function mbd(){
+        
+    }
+    public function mpd(){
+        
+    }
+    public function mpe(){
+        
+    }
+    public function mbpd(){
+        
+    }
+    public function smb(){
+        
+    }
+    public function smbd(){
+        
+    }
+
+	public function signupm(){
+
+	}
+
+	public function index(){
 		$this->Recruitments = TableRegistry::get('Recruitments');
         $this->Recruitment_menus = TableRegistry::get('Recruitment_menus');
         $this->Prices = TableRegistry::get('Prices');
@@ -26,11 +82,11 @@ class ModelController extends AppController{
 //　ーーーーーーーーーーーーーーーーーーーーーーー検索ーーーーーーーーーーーーーーーーーーーーーーーー
         $kensaku = $this->Recruitments->find('all');
         
-        if($this->request->is('post')){
+        if($this->request->is('get')){
         	$menuflg=0;
         	$priceflg=0;
-        	if(isset($_POST['menu_id'])){
-        		$menu_id=$_POST["menu_id"];
+        	if(isset($_GET['menu_id'])){
+        		$menu_id=$_GET["menu_id"];
 				// print_r($menu_id);
 				$menu=$this->Recruitment_menus->find();
 				
@@ -116,8 +172,8 @@ class ModelController extends AppController{
 	        }
 
 //エリア検索（県名）
-	        if(isset($_POST['prefecture'])){
-	        	$pref=$_POST['prefecture'];
+	        if(isset($_GET['prefecture'])){
+	        	$pref=$_GET['prefecture'];
 	        	
 	        	if(!($pref==-1)){
 	        		$data=$data->andWhere(['u.prefecture_id = '=>$pref]);
@@ -126,8 +182,8 @@ class ModelController extends AppController{
 	        }
 
 //価格検索	
-        	if(isset($_POST['price'])){
-        		$price = $_POST["price"];
+        	if(isset($_GET['price'])){
+        		$price = $_GET["price"];
         		
         		if(!($price==-1)){
 	        		$data=$data->andWhere(['recruitment_price_id = '=>$price+1]);
@@ -137,9 +193,9 @@ class ModelController extends AppController{
 
 //時刻検索
 
-        	if(isset($_POST['zikoku'])){
-        		if(!($_POST['zikoku']==-1)){
-        			$zikoku = $_POST['zikoku'];
+        	if(isset($_GET['zikoku'])){
+        		if(!($_GET['zikoku']==-1)){
+        			$zikoku = $_GET['zikoku'];
 	        		echo $zikoku;
 	        		$data=$data->andWhere(['recruitment_first_time_id <='=>$zikoku]);
 	        		$data=$data->andWhere(['recruitment_last_time_id >='=>$zikoku]);
@@ -240,5 +296,5 @@ class ModelController extends AppController{
 	}
 
 
-	
+
 }

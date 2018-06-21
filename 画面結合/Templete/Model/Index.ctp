@@ -5,7 +5,7 @@
     margin-right: 80px;
     margin-bottom: 20px;
 }
-.namelavel {
+.namelavel1 {
     background-color: rgba(0,222,222,0.40);
     margin: 0 auto;
     width: 100%;
@@ -14,14 +14,14 @@
     line-height: auto;
     /*border-radius: 10px;*/
 }
-    .back{
+    .back10{
         position: relative;
         background-image: url("../img/tophaikei.jpg");
         background-size:cover;
         padding:     500px 0;
         margin: 0;
     }
-    .back1{
+    .back11{
         background-color: white;
         padding: 50px 10px;
         margin: 0 auto;
@@ -31,7 +31,7 @@
         line-height: 1.7;
         border-radius: 10px;
     }
-    .back2{
+    .back20{
         background-color: white;
         padding: 20px 10px;
         margin: 0 auto;
@@ -47,8 +47,8 @@
 }
     
 </style>
-<div class="container-fluid back">
-<div class="jumbotron back1">
+<div class="container-fluid back10">
+<div class="jumbotron back11">
             <form>
                 
                 <div class ="row">
@@ -121,9 +121,9 @@
         </div>
         <br>
            <div class="row">
-                    <div class="namelavel text-white">岡林連</div>
+                    <div class="namelavel1 text-white">岡林連</div>
                     </div>
-            <div class="jumbotron back2">
+            <div class="jumbotron back20">
                     
                         <div class="row">
                             <div class="col-3">
